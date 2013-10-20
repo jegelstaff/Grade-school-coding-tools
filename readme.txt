@@ -23,3 +23,35 @@ This package consists of the following files:
 * /codemirror-3.18/
 -- a copy of the codemirror library that provides the syntax highlighing, line numbering, etc, and which includes a custom .js file (referenced in the main edit.php) that supports HTML, javascript, CSS and PHP in the same file
 
+===============
+INSTALLATION
+===============
+
+There are two things in this package that you might want to use. One is the reference sheet. The original .docx file is included so you can edit it to suit your purposes.  The minimal change you might want to make is to alter the title and the URL in the upper right.
+
+The other is the edit.php file. This is a simple editor and file manager. You can drop it into any directory on your webserver, browse to it, and it will then give you a list of the files in the directory. You can click them to edit them. The editor provides syntax highlighting for HTML, javascript, css and PHP.
+
+The edit.php file expects the codemirror library to be present at the same level in the directory structure.
+
+I recommend that you make multiple folders, one for each user (student?). Then everyone can have their own space to manage their own files. Furthermore, I recommend you password protect those folders through your webserver's control panel, or by other means. 
+
+You can put the /user/edit.php file in each subfolder. That file will refer back to the main edit.php file. This way, you can maintain one copy of the code, but it will be used by each subfolder. If there are changes to the main edit.php, it's easier to manage them this way.
+
+The complete recommended folder structure is like this:
+
+/www/
+|_edit.php
+|_/codemirror-3.18/
+|_/tom/
+  |_edit.php
+|_/dick/
+  |_edit.php
+|_/harry/
+  |_edit.php
+
+Lastly, there is an image file included, mac_and_cheese.jpg, and this is intended to let people follow the entire HTML example on the reference sheet, and actually have an image appear in their pages. It can be placed in each user's folder as required.
+
+I hope you find this useful. Let me know how it goes. Happy coding!
+
+--Julian
+julian@yourturn.ca
