@@ -1,6 +1,9 @@
 Grade School Coding Tools
 By Julian Egelstaff
 
+To learn about what this package is for and why I made it, see this Prezi: 
+http://prezi.com/bgjzpgdqmh-w/teaching-coding-to-grade-school-kids/
+
 This package consists of the following files:
 
 * this readme
