@@ -12,10 +12,19 @@ This package consists of the following files:
 -- a two page reference sheet and introduction to HTML and CSS.
 
 * Kimberley Computer Club - Reference.docx
--- the source file for the PDF.
+-- the source file for the Reference PDF.
+
+* Kimberley Computer Club - Cheat Sheet.pdf
+-- a one page cheat sheet with simple code examples of common things kids want to do.  It is laid out in two identical columns so you can cut it in half after printing.
+
+* Kimberley Computer Club - Cheat Sheet.docx
+-- the source file for the Cheat Sheet PDF.
 
 * edit.php
 -- a simple file manager and editor.
+
+* magic.js
+-- a javascript file that can be included in any page, to make elements classed 'clickable' alternate between red and black colours when clicked, and to make elements classed 'draggable' into draggable items courtesy of jQuery UI.  The intention is that kids can easily include one script file, without having to understand all of what it does, and then have some simple interactivity in their pages.  magic.js could be easily extended to support other actions.  Note that since Javascript does not support multiple line strings, the main code has slashes in it to escape the line breaks!
 
 * /user/edit.php
 -- a file that refers back to the main edit.php, intended to let multiple subfolders all work off the same edit.php file, while managing only the files in their own subfolder.
